@@ -5,12 +5,30 @@ require gcc
 
 include textmate::textmate2::release
 include chrome
-include chrome::chromium
+# chromium is broken
+# include chrome::chromium
 include chrome::canary
+include firefox
 
+include virtualbox
+include wget
+include webstorm
+include pycharm
+
+include openoffice
+include cyberduck
+include mou
+
+include tmux
 include iterm2::stable
 include iterm2::colors::solarized_light
 include iterm2::colors::solarized_dark
+
+
+
+class { 'intellij':
+  edition => 'community',
+}
 
 
 Exec {
