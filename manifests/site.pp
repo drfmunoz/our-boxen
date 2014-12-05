@@ -2,6 +2,17 @@ require boxen::environment
 require homebrew
 require gcc
 
+
+include textmate::textmate2::release
+include chrome
+include chrome::chromium
+include chrome::canary
+
+include iterm2::stable
+include iterm2::colors::solarized_light
+include iterm2::colors::solarized_dark
+
+
 Exec {
   group       => 'staff',
   logoutput   => on_failure,
@@ -64,15 +75,10 @@ node default {
   }
 
   # node versions
-  nodejs::version { 'v0.6': }
-  nodejs::version { 'v0.8': }
+
   nodejs::version { 'v0.10': }
 
   # default ruby versions
-  ruby::version { '1.9.3': }
-  ruby::version { '2.0.0': }
-  ruby::version { '2.1.0': }
-  ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
   # common, useful packages

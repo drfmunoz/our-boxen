@@ -42,7 +42,6 @@ github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "2.2.0"
 github "git",         "2.7.0"
-github "go",          "2.1.0"
 github "homebrew",    "1.9.8"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
@@ -56,6 +55,9 @@ github "ruby",        "8.1.7"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
+github "textmate"
+github "chrome"
+github "iterm2"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
