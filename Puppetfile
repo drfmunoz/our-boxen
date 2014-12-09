@@ -75,6 +75,7 @@ github "cyberduck"
 github "mou"
 github "googledrive"
 github "tmux"
+github "the-unarchiver",:repo => "drfmunoz/puppet-the-unarchiver"
 
 
 # Optional/custom modules. There are tons available at

@@ -2,7 +2,6 @@ require boxen::environment
 require homebrew
 require gcc
 
-
 include textmate::textmate2::release
 include chrome
 # chromium is broken
@@ -15,6 +14,7 @@ include wget
 include webstorm
 include pycharm
 
+include theunarchiver
 include openoffice
 include cyberduck
 include mou
